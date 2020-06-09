@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://necolas.github.io/normalize.css/latest/normalize.css');
+
 :root {
   font: 16px / 1 sans-serif;
 }
@@ -9,4 +13,42 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  font-family: 'Cabin', sans-serif;
+  background-color: #babcc1;
+  color: #210a05;
+  border: thick double #8fa5ae;
+}
+.page-header {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.fit-picture {
+  border: solid;
+  margin: 0.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h2 {
+  padding: 0.5rem;
+}
+
+h3 {
+  padding: 0.5rem;
+  font-style: italic;
+}
+
+p {
+  padding: 0.5rem;
+}
+
+header,
+footer {
+  font-family: 'Anton', sans-serif;
+  background-color: #49505e;
+  color: #72e172;
+  padding: 0.5rem;
 }
